@@ -1,0 +1,19 @@
+# Ignorar o ambiente virtual (sua pasta .venv)
+.venv/
+venv/
+env/
+
+# Ignorar banco de dados local (seu sqlite)
+*.sqlite3
+db.sqlite3
+
+# Ignorar arquivos compilados do Python (lixo automático)
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de configuração do sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de variáveis de ambiente (segurança)
+.env
